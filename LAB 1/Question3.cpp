@@ -86,8 +86,11 @@ int main() {
     return 0;
 }
 
-"""In deep copy, every object gets its own memory, so when one object is copied, a new memory is created and the value is stored separately.
+/*
+In deep copy, every object gets its own memory, so when one object is copied, a new memory is created and the value is stored separately.
 This means changes in one object do not affect the other, and no errors occur since each object manages its own memory.
 On the other hand, in shallow copy only the pointer is copied, not the actual data. Both objects end up sharing the same memory, so if one is changed, the other also changes. 
-The main problem is that when both objects are destroyed, they try to delete the same memory, which can cause a runtime crash."""
+The main problem is that when both objects are destroyed, they try to delete the same memory, which can cause a runtime crash.
+*/
+
 
